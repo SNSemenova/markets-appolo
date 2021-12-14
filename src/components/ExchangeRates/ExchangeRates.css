@@ -1,0 +1,43 @@
+.markets-list {
+    margin-top: 44px;
+    min-height: 240px;
+}
+.markets-list__item {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient( to right, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0) ) 0 1 100%;
+    background-image: url("../../assets/icon.svg");
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    padding: 7px 72px;
+}
+.markets-item__close {
+    border: none;
+    background-color: unset;
+    background-image: url("../../assets/cross.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+}
+.markets-item__market {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 73%;
+}
+.markets-item__currency {
+    color: white;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.markets-item__price {
+    color: rgba(255, 255, 255, 0.3);
+    margin: 1px 0;
+    font-size: 13px;
+}

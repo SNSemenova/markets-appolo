@@ -1,0 +1,61 @@
+.adding-form {
+    background: white;
+    padding: 45px;
+    padding-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border-radius: 4px;
+    text-align: center;
+}
+.adding-form__input-label {
+    position: relative;
+}
+.adding-form__input {
+    height: 42px;
+    border: solid 1px darkgray;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 17px;
+    font-weight: 600;
+    outline: none;
+}
+
+.adding-form__input-label::before {
+    content: "cryptocurrency code";
+    position: absolute;
+    background: white;
+    color: darkgray;
+    left: 10px;
+    text-transform: uppercase;
+    font-size: 8px;
+    top: -5px;
+    padding: 0 6px;
+}
+
+.adding-form__submit {
+    border-radius: 50px;
+    height: 40px;
+    background-color: #fd4a24;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.adding-form__info-text {
+    color: darkgray;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.adding-form__error {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    right: 4px;
+    text-align: end;
+    bottom: 2px;
+}
+

@@ -1,0 +1,50 @@
+.app {
+  background-color: #2a0a4a;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 230%;
+  background-position-y: -20px;
+  background-size: 1000px;
+}
+
+.app-header {
+  padding: 34px 135px 40px;
+  color: white;
+}
+
+.app-main {
+  padding: 0 105px 70px 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url("./assets/figure.png");
+  background-size: 472px;
+  background-repeat: no-repeat;
+  background-position: center 100%;
+}
+
+.left-side {
+  max-width: 418px;
+}
+
+h1 {
+  margin: 21px 0 15px;
+  font-size: 43px;
+  line-height: 53px;
+  color: white;
+}
+
+.direction-text {
+  font-size: 23px;
+  margin: 0;
+  max-width: 287px;
+  line-height: 31px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.app-footer {
+  background-color: white;
+  color: darkgray;
+  padding: 57px 145px 40px 164px;
+  font-size: 12px;
+}
